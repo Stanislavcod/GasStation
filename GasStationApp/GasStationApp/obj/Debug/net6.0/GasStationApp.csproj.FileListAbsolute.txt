@@ -1,0 +1,5 @@
+C:\GitHub\GasStation\GasStationApp\GasStationApp\obj\Debug\net6.0\GasStationApp.csproj.AssemblyReference.cache
+C:\GitHub\GasStation\GasStationApp\GasStationApp\obj\Debug\net6.0\GasStationApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\GasStation\GasStationApp\GasStationApp\obj\Debug\net6.0\GasStationApp.AssemblyInfoInputs.cache
+C:\GitHub\GasStation\GasStationApp\GasStationApp\obj\Debug\net6.0\GasStationApp.AssemblyInfo.cs
+C:\GitHub\GasStation\GasStationApp\GasStationApp\obj\Debug\net6.0\GasStationApp.csproj.CoreCompileInputs.cache
