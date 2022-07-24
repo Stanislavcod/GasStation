@@ -9,5 +9,7 @@ namespace GasStationApp.Entities
         public string? Title { get; set; }
         public string? Description { get; set; }
         public string? Equipment { get; set; }
+
+        public List<Employee> Employees { get; set; } = new();
     }
 }
