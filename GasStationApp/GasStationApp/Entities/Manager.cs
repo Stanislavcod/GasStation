@@ -11,5 +11,7 @@ namespace GasStationApp.Entities
         [ForeignKey("DepartamentId")]
         public int DepartamentId { get; set; }
         public Departament? Departament { get; set; }
+
+        public List<Employee> Employees { get; set; } = new();
     }
 }

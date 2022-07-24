@@ -10,5 +10,7 @@ namespace GasStationApp.Entities
         public double Capacity { get; set; }
         
         public List<Fuel> Fuels { get; set; } = new();
+        
+        public List<Order> Orders { get; set; } = new();
     }
 }
