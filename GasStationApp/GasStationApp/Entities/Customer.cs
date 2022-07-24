@@ -2,6 +2,7 @@
 
 namespace GasStationApp.Entities
 {
+    [Table("Customers")]
     internal class Customer : Person 
     {
         [ForeignKey("CreditCardId")]

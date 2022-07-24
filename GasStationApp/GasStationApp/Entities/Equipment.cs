@@ -2,15 +2,13 @@
 
 namespace GasStationApp.Entities
 {
-    internal class Post
+    internal class Equipment
     {
         [Key]
         public int Id { get; set; }
         public string? Title { get; set; }
         public string? Description { get; set; }
 
-        public List<Equipment> Equipments { get; set; } = new();
-
-        public List<Employee> Employees { get; set; } = new();
+        public List<Post> Posts { get; set; } = new();
     }
 }

@@ -9,7 +9,7 @@ namespace GasStationApp.Entities
         public string? TypeOfFuel { get; set; }
         public string? Description { get; set; }
         public decimal Price { get; set; }
-        public double Volume { get; set; }
+        public double Quantity { get; set; }
 
         public List<FuelPump> FuelPumps { get; set; } = new();
 

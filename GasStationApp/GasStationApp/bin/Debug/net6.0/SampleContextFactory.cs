@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace GasStationApp
 {
-    public class SampleContextFactory : IDesignTimeDbContextFactory<ApplicationContext>
+    internal class SampleContextFactory : IDesignTimeDbContextFactory<ApplicationContext>
     {
         public ApplicationContext CreateDbContext(string[] args)
         {
