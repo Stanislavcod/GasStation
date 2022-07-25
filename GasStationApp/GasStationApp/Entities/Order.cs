@@ -19,6 +19,7 @@ namespace GasStationApp.Entities
 
         public int? FuelId { get; set; }
         public Fuel? Fuel { get; set; }
+        public double? FuelQuantity { get; set; }
 
         public int EmployeeId { get; set; }
         public Employee? Employee { get; set; }

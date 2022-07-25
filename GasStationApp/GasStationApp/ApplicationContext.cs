@@ -25,14 +25,15 @@ namespace GasStationApp
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            
+
             builder.Entity<Employee>().HasData(new Employee
             {
                 Name = "Tom",
                 SurName = "Terakov",
                 Age = 22,
                 PhoneNumber = "+375298875845",
-                Id = 1
+                Id = 1,
+                Salary = 1500
             });
         }
     }
